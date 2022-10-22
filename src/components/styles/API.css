@@ -1,0 +1,46 @@
+.api-page {
+    width:100%;
+}
+.api-container-app {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 1.2rem;
+}
+.api-data{
+    width: 60%;
+}
+.more{
+    width: 30%;
+}
+.api-data-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.api-data-header h2{
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    font-size: 2.4rem;
+}
+.api-data p{
+    font-size: 1.2rem;
+}
+
+.hashtag{
+    color: #0075FF;
+    margin-right: 5px;
+}
+.ga-cta{
+    background-color: #0075FF;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.ga{
+    margin: 5px 0;
+}
+.api-data p, .api-data span{
+    margin: 10px 0;
+}

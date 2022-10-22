@@ -1,0 +1,41 @@
+.api {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+}
+.api span {
+    font-size: 1rem;
+    font-family: "Roboto Mono", monospace;
+}
+.api h2{
+    font-size: 1.8rem;
+    font-family: "Roboto", sans-serif;
+}
+.api p{
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+    height: 6rem;
+}
+.api-actions{
+    display: flex;
+
+}
+.more-info-btn button{
+    background-color: #0075FF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.api-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 50px;
+    gap: 1rem;
+}
